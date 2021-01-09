@@ -1,0 +1,296 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script><!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname"></span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="aeccb7f29698fd59e4e39b4ef6a34189ed4a2caefaf6d3f7835fd75421680f87.html">Register On The Automationpractice.Com Page</a></span>
+                > <span class="truncate-60"><a
+                    href="147082cf46ecb527ea13535ecb78e467390a8271bc95548558acf27234d09425.html">Register successful </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 22-09-2020 10:41</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Register On The Automationpractice.Com Page</span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                I want to register on the page automation practice
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="bca18eb34184f466810ee7a90d04748e21a2df6dea7311083e75ce6b8ed2a2f5.html">Tag1
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="ec3644e9342d32fe427f28bfa83a3084b3999493dbafdd95c2d0cbb278b71b7f.html">Tag
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Register successful
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="d1002d6569eb95da96b1598d4b74df8d33cc2f04317f7fdb327a7f4e03dff37c.png" title=" Given I want to register, I go to the sign-in page" width="1920"/>
+                <img src="d1002d6569eb95da96b1598d4b74df8d33cc2f04317f7fdb327a7f4e03dff37c.png" title=" Esteban opens the browser on automation practice page" width="1920"/>
+                <img src="d1002d6569eb95da96b1598d4b74df8d33cc2f04317f7fdb327a7f4e03dff37c.png" title=" Esteban opens the Automation practice page" width="1920"/>
+                <img src="cee537847378ea49f9c70b58bb5a7e304292b7e312f4707901e4b07cc4a2e1e4.png" title=" Esteban opens the Automation practice page (completed)" width="1920"/>
+                <img src="cee537847378ea49f9c70b58bb5a7e304292b7e312f4707901e4b07cc4a2e1e4.png" title=" Esteban opens the browser on automation practice page (completed)" width="1920"/>
+                <img src="cee537847378ea49f9c70b58bb5a7e304292b7e312f4707901e4b07cc4a2e1e4.png" title=" Given I want to register, I go to the sign-in page (completed)" width="1920"/>
+                <img src="cf976fbf8519f8cb687cc10b17760ab3c8c90cf7d8bdb78f2ed4450d9a6ba17f.png" title=" When I type the email, I see the register form
+| emailAddressCreate |
+| pruebaSQA@hotmail.com |" width="1920"/>
+                <img src="cf976fbf8519f8cb687cc10b17760ab3c8c90cf7d8bdb78f2ed4450d9a6ba17f.png" title=" Esteban sign in" width="1920"/>
+                <img src="cf976fbf8519f8cb687cc10b17760ab3c8c90cf7d8bdb78f2ed4450d9a6ba17f.png" title=" Esteban clicks on Button to sign-in on the page" width="1920"/>
+                <img src="cf976fbf8519f8cb687cc10b17760ab3c8c90cf7d8bdb78f2ed4450d9a6ba17f.png" title=" Esteban enters 'pruebaSQA@hotmail.com' into Input to the email address" width="1920"/>
+                <img src="8b2e56834ef3b5fee6e069d98673150998b8a92ac232fb72dc076347779abfa7.png" title=" Esteban enters 'pruebaSQA@hotmail.com' into Input to the email address (completed)" width="1920"/>
+                <img src="8b2e56834ef3b5fee6e069d98673150998b8a92ac232fb72dc076347779abfa7.png" title=" Esteban clicks on Button to create an account" width="1920"/>
+                <img src="c8385ece3fd188f7402389965a5dafd58fb5beec607faff69f31f8e584ab7433.png" title=" Esteban clicks on Button to create an account (completed)" width="1920"/>
+                <img src="b69ddadfa04def20808803562e49efecfb1443036d61df02af539bda871afe81.png" title=" Esteban sign in (completed)" width="1920"/>
+                <img src="9d92410dfbe37519256a31a9629fd00005bef954feacf30f2cf0da19c96e2e1a.png" title=" Then registration form should be a collection containing 'YOUR PERSONAL INFORMATION'" width="1920"/>
+                <img src="9d92410dfbe37519256a31a9629fd00005bef954feacf30f2cf0da19c96e2e1a.png" title=" Then registration form should be a collection containing 'YOUR PERSONAL INFORMATION' (completed)" width="1920"/>
+                <img src="9d92410dfbe37519256a31a9629fd00005bef954feacf30f2cf0da19c96e2e1a.png" title=" When I type the email, I see the register form
+| emailAddressCreate |
+| pruebaSQA@hotmail.com | (completed)" width="1920"/>
+                <img src="07249af83e4ea2086827bb5ba9cc397b9bb56ee630147d923f3789abb31c322a.png" title=" And I do the registration
+| genderPI | firstNamePI | lastNamePI | emailAddressPI | emailAddressCreate | passwordPI | day | month | year | firstNameYA | lastNameYA | addressYA | cityYA | stateYA | zipCodeYA | countryYA | mobilePhoneYA | aliasAddressYA |
+| 1 | esteban | lopez | pruuebaSQAAA@hotmail.com | pruuebaSQAA@hotmail.com | 123456 | 5 | 5 | 1997 | esteban | lopez | car 39 N-65-51 | Medellin | 3 | 05003 | 21 | 3057783444 | Preferida |" width="1920"/>
+                <img src="07249af83e4ea2086827bb5ba9cc397b9bb56ee630147d923f3789abb31c322a.png" title=" Esteban register" width="1920"/>
+                <img src="07249af83e4ea2086827bb5ba9cc397b9bb56ee630147d923f3789abb31c322a.png" title=" Esteban clicks on Radio button to male" width="1920"/>
+                <img src="07249af83e4ea2086827bb5ba9cc397b9bb56ee630147d923f3789abb31c322a.png" title=" Esteban type on element" width="1920"/>
+                <img src="07249af83e4ea2086827bb5ba9cc397b9bb56ee630147d923f3789abb31c322a.png" title=" Esteban enters 'esteban' into Input to the first name in your personal information section" width="1920"/>
+                <img src="b244b086649b7f52d671ec3e497e277a77906eb208ad57c04a585a14f9aa5738.png" title=" Esteban enters 'esteban' into Input to the first name in your personal information section (completed)" width="1920"/>
+                <img src="b244b086649b7f52d671ec3e497e277a77906eb208ad57c04a585a14f9aa5738.png" title=" Esteban type on element (completed)" width="1920"/>
+                <img src="b244b086649b7f52d671ec3e497e277a77906eb208ad57c04a585a14f9aa5738.png" title=" Esteban type on element" width="1920"/>
+                <img src="b244b086649b7f52d671ec3e497e277a77906eb208ad57c04a585a14f9aa5738.png" title=" Esteban enters 'lopez' into Input to the last name in your personal information section" width="1920"/>
+                <img src="2ef9caca09328e29cae3f9c6f78fd8d7e05a71d2a6dc823039535bcf79dc39fb.png" title=" Esteban enters 'lopez' into Input to the last name in your personal information section (completed)" width="1920"/>
+                <img src="2ef9caca09328e29cae3f9c6f78fd8d7e05a71d2a6dc823039535bcf79dc39fb.png" title=" Esteban type on element (completed)" width="1920"/>
+                <img src="2ef9caca09328e29cae3f9c6f78fd8d7e05a71d2a6dc823039535bcf79dc39fb.png" title=" Esteban type on element" width="1920"/>
+                <img src="2ef9caca09328e29cae3f9c6f78fd8d7e05a71d2a6dc823039535bcf79dc39fb.png" title=" Esteban enters 'pruuebaSQAAA@hotmail.com' into Input to the email address in your personal information section" width="1920"/>
+                <img src="5f63fc1d7937b101a0cb31d37c7f8f700685ad891fc9d986121b42ec0ca6fe32.png" title=" Esteban enters 'pruuebaSQAAA@hotmail.com' into Input to the email address in your personal information section (completed)" width="1920"/>
+                <img src="5f63fc1d7937b101a0cb31d37c7f8f700685ad891fc9d986121b42ec0ca6fe32.png" title=" Esteban type on element (completed)" width="1920"/>
+                <img src="5f63fc1d7937b101a0cb31d37c7f8f700685ad891fc9d986121b42ec0ca6fe32.png" title=" Esteban type on element" width="1920"/>
+                <img src="5f63fc1d7937b101a0cb31d37c7f8f700685ad891fc9d986121b42ec0ca6fe32.png" title=" Esteban enters '123456' into Input to the password in your personal information section" width="1920"/>
+                <img src="7378deb33cd8afed6a158a8ea3a9299b6663c3a6d41ef071caa2b1fbd387388d.png" title=" Esteban enters '123456' into Input to the password in your personal information section (completed)" width="1920"/>
+                <img src="7378deb33cd8afed6a158a8ea3a9299b6663c3a6d41ef071caa2b1fbd387388d.png" title=" Esteban type on element (completed)" width="1920"/>
+                <img src="7378deb33cd8afed6a158a8ea3a9299b6663c3a6d41ef071caa2b1fbd387388d.png" title=" Esteban selects 5 in List box to the day of the birth" width="1920"/>
+                <img src="3e0f45b752500af698148face4da467225cedc4222a93143a33ed14fe92b9086.png" title=" Esteban selects 5 in List box to the day of the birth (completed)" width="1920"/>
+                <img src="3e0f45b752500af698148face4da467225cedc4222a93143a33ed14fe92b9086.png" title=" Esteban selects 5 in List box to the month of the birth" width="1920"/>
+                <img src="a6a1c87e792ddc9b1f816aa12638f056ba31eb405a99ffa2b72f1ef60abb899b.png" title=" Esteban selects 5 in List box to the month of the birth (completed)" width="1920"/>
+                <img src="a6a1c87e792ddc9b1f816aa12638f056ba31eb405a99ffa2b72f1ef60abb899b.png" title=" Esteban selects 1997 in List box to the year of the birth" width="1920"/>
+                <img src="c0923b89d82c177d6e42f0aaf51d8428eca7009a39ee48af416901572fb3cec1.png" title=" Esteban selects 1997 in List box to the year of the birth (completed)" width="1920"/>
+                <img src="c0923b89d82c177d6e42f0aaf51d8428eca7009a39ee48af416901572fb3cec1.png" title=" Esteban type on element" width="1920"/>
+                <img src="52d20312d45a31da4aa2671530b10d14b5e0ef4f5dfbcf41b260477909eecd1e.png" title=" Esteban enters 'esteban' into Input to the first name in your address section" width="1920"/>
+                <img src="bd72c8648d7344b2ee3542101025ab2fdca7d902557714c64972d9a9dac4c15e.png" title=" Esteban enters 'esteban' into Input to the first name in your address section (completed)" width="1920"/>
+                <img src="bd72c8648d7344b2ee3542101025ab2fdca7d902557714c64972d9a9dac4c15e.png" title=" Esteban type on element (completed)" width="1920"/>
+                <img src="bd72c8648d7344b2ee3542101025ab2fdca7d902557714c64972d9a9dac4c15e.png" title=" Esteban type on element" width="1920"/>
+                <img src="bd72c8648d7344b2ee3542101025ab2fdca7d902557714c64972d9a9dac4c15e.png" title=" Esteban enters 'lopez' into Input to the last name in your address section" width="1920"/>
+                <img src="b975f563bd834aba9b0854fcbc0529ce099465eded2228a5eaee0f77f58adc91.png" title=" Esteban enters 'lopez' into Input to the last name in your address section (completed)" width="1920"/>
+                <img src="b975f563bd834aba9b0854fcbc0529ce099465eded2228a5eaee0f77f58adc91.png" title=" Esteban type on element (completed)" width="1920"/>
+                <img src="b975f563bd834aba9b0854fcbc0529ce099465eded2228a5eaee0f77f58adc91.png" title=" Esteban type on element" width="1920"/>
+                <img src="b975f563bd834aba9b0854fcbc0529ce099465eded2228a5eaee0f77f58adc91.png" title=" Esteban enters 'car 39 N-65-51' into Input to the address in your address section" width="1920"/>
+                <img src="be77b66218e5a576ff1a1fc190311953c86172d0d92149db9cacfa392cd72a08.png" title=" Esteban enters 'car 39 N-65-51' into Input to the address in your address section (completed)" width="1920"/>
+                <img src="be77b66218e5a576ff1a1fc190311953c86172d0d92149db9cacfa392cd72a08.png" title=" Esteban type on element (completed)" width="1920"/>
+                <img src="be77b66218e5a576ff1a1fc190311953c86172d0d92149db9cacfa392cd72a08.png" title=" Esteban type on element" width="1920"/>
+                <img src="be77b66218e5a576ff1a1fc190311953c86172d0d92149db9cacfa392cd72a08.png" title=" Esteban enters 'Medellin' into Input to the city in your address section" width="1920"/>
+                <img src="54d39f8e07d408d011ed6450b7a7ebaea23eb98e806ac5d3f4156ec5cb41557a.png" title=" Esteban enters 'Medellin' into Input to the city in your address section (completed)" width="1920"/>
+                <img src="54d39f8e07d408d011ed6450b7a7ebaea23eb98e806ac5d3f4156ec5cb41557a.png" title=" Esteban type on element (completed)" width="1920"/>
+                <img src="54d39f8e07d408d011ed6450b7a7ebaea23eb98e806ac5d3f4156ec5cb41557a.png" title=" Esteban selects 3 in List box to the state" width="1920"/>
+                <img src="a09f1ce08f05ef60b10cfa681b0b756cd1a0d2ffae3693a24bbdf0451e4b9168.png" title=" Esteban selects 3 in List box to the state (completed)" width="1920"/>
+                <img src="a09f1ce08f05ef60b10cfa681b0b756cd1a0d2ffae3693a24bbdf0451e4b9168.png" title=" Esteban type on element" width="1920"/>
+                <img src="a09f1ce08f05ef60b10cfa681b0b756cd1a0d2ffae3693a24bbdf0451e4b9168.png" title=" Esteban enters '05003' into Input to the zip/code postal in your address section" width="1920"/>
+                <img src="69dc75e99b4a93848f44087a9786993a3ee50728fbad965fb5f16f095cc78ff0.png" title=" Esteban enters '05003' into Input to the zip/code postal in your address section (completed)" width="1920"/>
+                <img src="69dc75e99b4a93848f44087a9786993a3ee50728fbad965fb5f16f095cc78ff0.png" title=" Esteban type on element (completed)" width="1920"/>
+                <img src="69dc75e99b4a93848f44087a9786993a3ee50728fbad965fb5f16f095cc78ff0.png" title=" Esteban selects 21 in List box to the country" width="1920"/>
+                <img src="adcd0f47f465b846e589138697e3531086b8faf95636dcbc3d589a8dca5532a1.png" title=" Esteban selects 21 in List box to the country (completed)" width="1920"/>
+                <img src="adcd0f47f465b846e589138697e3531086b8faf95636dcbc3d589a8dca5532a1.png" title=" Esteban type on element" width="1920"/>
+                <img src="adcd0f47f465b846e589138697e3531086b8faf95636dcbc3d589a8dca5532a1.png" title=" Esteban enters '3057783444' into Input to the mobile in your address section" width="1920"/>
+                <img src="a0d926a114ac331fca93e0c5de93ba63805436e2d7294cdee6368ae9ac36de98.png" title=" Esteban enters '3057783444' into Input to the mobile in your address section (completed)" width="1920"/>
+                <img src="a0d926a114ac331fca93e0c5de93ba63805436e2d7294cdee6368ae9ac36de98.png" title=" Esteban type on element (completed)" width="1920"/>
+                <img src="a0d926a114ac331fca93e0c5de93ba63805436e2d7294cdee6368ae9ac36de98.png" title=" Esteban type on element" width="1920"/>
+                <img src="a0d926a114ac331fca93e0c5de93ba63805436e2d7294cdee6368ae9ac36de98.png" title=" Esteban enters 'Preferida' into Input to the address alias in your address section" width="1920"/>
+                <img src="c115c2b0c2db3dfae1f4dd77e85998a3aaaab0af5f3a8180f69502f01327bd22.png" title=" Esteban enters 'Preferida' into Input to the address alias in your address section (completed)" width="1920"/>
+                <img src="c115c2b0c2db3dfae1f4dd77e85998a3aaaab0af5f3a8180f69502f01327bd22.png" title=" Esteban type on element (completed)" width="1920"/>
+                <img src="324e135a194b839be32ae7028f68100ab2a602a9335c59c1906fb10fe0965af8.png" title=" Esteban clicks on Button to register" width="1920"/>
+                <img src="f76eb2ec2574f746d1e27e73f7f3aff61f5cbd0c1674824afb898814a1039a04.png" title=" Esteban register" width="1920"/>
+                <img src="f76eb2ec2574f746d1e27e73f7f3aff61f5cbd0c1674824afb898814a1039a04.png" title=" Esteban clicks on Button to register (completed)" width="1920"/>
+                <img src="f76eb2ec2574f746d1e27e73f7f3aff61f5cbd0c1674824afb898814a1039a04.png" title=" And I do the registration
+| genderPI | firstNamePI | lastNamePI | emailAddressPI | emailAddressCreate | passwordPI | day | month | year | firstNameYA | lastNameYA | addressYA | cityYA | stateYA | zipCodeYA | countryYA | mobilePhoneYA | aliasAddressYA |
+| 1 | esteban | lopez | pruuebaSQAAA@hotmail.com | pruuebaSQAA@hotmail.com | 123456 | 5 | 5 | 1997 | esteban | lopez | car 39 N-65-51 | Medellin | 3 | 05003 | 21 | 3057783444 | Preferida | (completed)" width="1920"/>
+                <img src="f76eb2ec2574f746d1e27e73f7f3aff61f5cbd0c1674824afb898814a1039a04.png" title=" Then I validate the name and the lastname on the home page" width="1920"/>
+                <img src="f76eb2ec2574f746d1e27e73f7f3aff61f5cbd0c1674824afb898814a1039a04.png" title=" Then full name should be 'esteban lopez'" width="1920"/>
+                <img src="f76eb2ec2574f746d1e27e73f7f3aff61f5cbd0c1674824afb898814a1039a04.png" title=" Then I validate the name and the lastname on the home page (completed): <span class='success-color'>SUCCESS</span>" width="1920"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.49</span>
+</div>
+</body>
+</html>
